@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 @font-face {
     font-family: 'Helvetica Neue';
     src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'), url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
@@ -85,6 +84,9 @@ html, body {
     height: 100%;
     background-image: url('background.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .box {
@@ -95,8 +97,6 @@ html, body {
     margin-left: -275.5px;
     top: 50%;
     margin-top: -305px;
-
-
     /*top: 210px;
     left: 350px;*/
     background-color: rgba(0, 0, 0, 0.5);
@@ -206,11 +206,10 @@ h2 {
 }
 
 #updates {
-      margin: 17px 0 17px 141px;
+    margin: 17px 0 17px 141px;
 }
 
 .update {
-
     color: #b5b4b1;
     font: 14px 'Helvetica Neue';
 }
